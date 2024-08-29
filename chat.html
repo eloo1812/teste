@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="tailwindcss-colors.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat</title>
+</head>
+<body>
+
+    <section class="chat-section">
+        <div class="chat-container">
+            <aside class="chat-sidebar">
+                </a>
+                <ul class="chat-sidebar-menu">
+                    <li class="active"><a href="#" data-title="Chats"><i class="ri-chat-3-line"></i></a></li>
+                    <li class="chat-sidebar-profile">
+                        <button type="button" class="chat-sidebar-profile-toggle">
+                            <img src="https://clipground.com/images/letter-t-black-and-white-clipart-1.png" alt="">
+                        </button>
+                    </li>
+                </ul>
+            </aside>
+            <div class="chat-content">
+                <div class="content-sidebar">
+                    <div class="content-sidebar-title">ChatINFO</div>
+                    <div class="content-messages">
+                        <ul class="content-messages-list">
+                            <li class="content-message-title"><span>Salas</span></li>
+                            <li>
+                                <a href="#" data-conversation="#conversation-1">
+                                    <img class="content-message-image" src="https://th.bing.com/th/id/OIP.v-mB1tYfk9ZavaIzYtvdeQHaEK?w=292&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                                    <span class="content-message-info">
+                                        <span class="content-message-name">Defensores do JavaScript</span>
+                                        <span class="content-message-text">Oiii gente como ta ai?</span>
+                                    </span>
+                                    <span class="content-message-more">
+                                        <span class="content-message-unread">5</span>
+                                        <span class="content-message-time">12:30</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-conversation="#conversation-2">
+                                    <img class="content-message-image" src="https://a.pinatafarm.com/1000x997/58e6e24d5a/nerd-emoji.jpg" alt="">
+                                    <span class="content-message-info">
+                                        <span class="content-message-name">Gênios da INFO</span>
+                                        <span class="content-message-text">não quero provaaaa</span>
+                                    </span>
+                                    <span class="content-message-more">
+                                        <span class="content-message-time">12:30</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="content-message-image" src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png" alt="">
+                                    <span class="content-message-info">
+                                        <span class="content-message-name">Vinagadores do java</span>
+                                        <span class="content-message-text">se leu tem q da nota boa.</span>
+                                    </span>
+                                    <span class="content-message-more">
+                                        <span class="content-message-unread">5</span>
+                                        <span class="content-message-time">12:30</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="content-message-image" src="https://th.bing.com/th/id/OIP.sKQsCo4X6JPbB5SaoFLGLQAAAA?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                                    <span class="content-message-info">
+                                        <span class="content-message-name">Renegados do twitter</span>
+                                        <span class="content-message-text">adoro twittar.</span>
+                                    </span>
+                                    <span class="content-message-more">
+                                        <span class="content-message-time">12:30</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="content-message-image" src="https://th.bing.com/th/id/OIP.SCe4LR7vHHtFTSEcKlFz4AHaHa?rs=1&pid=ImgDetMain" alt="">
+                                    <span class="content-message-info">
+                                        <span class="content-message-name">Só quero reclamar</span>
+                                        <span class="content-message-text">adoro reclamar.</span>
+                                    </span>
+                                    <span class="content-message-more">
+                                        <span class="content-message-unread">5</span>
+                                        <span class="content-message-time">12:30</span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="conversation" id="conversation-1">
+                    <div class="conversation-top">
+                        <button type="button" class="conversation-back"><i class="ri-arrow-left-line"></i></button>
+                        <div class="conversation-user">
+                            <img class="conversation-user-image" src="https://th.bing.com/th/id/OIP.v-mB1tYfk9ZavaIzYtvdeQHaEK?w=292&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                            <div>
+                                <div class="conversation-user-name">Defensores do JavaScript</div>
+                                <div class="conversation-user-status online">online</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="conversation-main">
+                        <ul class="conversation-wrapper">
+                            <div class="coversation-divider"><span>Today</span></div>
+                            <li class="conversation-item me">
+                                <div class="conversation-item-side">
+                                    <img class="conversation-item-image" src="Captura de tela 2024-08-28 200745.png" alt="">
+                                </div>
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>Se leu vai ter que da nota boa KKKKKK</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>eita como são boas adoro a elo e a val vou da 14 pras duas pelo esforço</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="conversation-item">
+                                <div class="conversation-item-side">
+                                    <img class="conversation-item-image" src="https://clipground.com/images/letter-t-black-and-white-clipart-1.png" alt="">
+                                </div>
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>esse chat ta lindo mesmo nossa arrasamos</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>adoro o diego candido ele vai da nota boa pra todo mundo</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>menos pra duda KKKKKKKKKKKKKKKKKKKKKKKKKK</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="conversation-item me">
+                                <div class="conversation-item-side">
+                                    <img class="conversation-item-image" src="Captura de tela 2024-08-28 200745.png" alt="">
+                                </div>
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>a duda é uma boa pessoa ela merece tudo de bom na vida dela</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>vou da um estagio pra ela e pra Eloisa </p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>ai que fome que eu to quero polenta com repolho</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="conversation-form">
+                        <button type="button" class="conversation-form-button"><i class="ri-emotion-line"></i></button>
+                        <div class="conversation-form-group">
+                            <textarea class="conversation-form-input" rows="1" placeholder=" Digite aqui..."></textarea>
+                        </div>
+                        <button type="button" class="conversation-form-button conversation-form-submit"><i class="ri-send-plane-2-line"></i></button>
+                    </div>
+                </div>
+                <div class="conversation" id="conversation-2">
+                    <div class="conversation-top">
+                        <button type="button" class="conversation-back"><i class="ri-arrow-left-line"></i></button>
+                        <div class="conversation-user">
+                            <img class="conversation-user-image" src="https://a.pinatafarm.com/1000x997/58e6e24d5a/nerd-emoji.jpg" alt="">
+                            <div>
+                                <div class="conversation-user-name">Gênios da INFO</div>
+                                <div class="conversation-user-status online">online</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversation-main">
+                        <ul class="conversation-wrapper">
+                            
+                            <div class="private-room-notice" id="private-room-notice">
+                                <i class="ri-lock-fill private-room-icon"></i>
+                                <h1 class="private-room-title">ESSA SALA É PRIVADA</h1>
+                                <p class="private-room-text">Você não tem permissão para acessar esta conversa.</p>
+                            </div>
+                            
+                            <div class="chat-content" id="chat-content" style="display:none;">
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <p>Oi gente sou novo na turma</p>
+                                                <div class="conversation-item-time">12:30</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="login-section">
+                                <input type="password" id="password-input" class="styled-input" placeholder="Digite sua senha">
+                                <button class="styled-button" onclick="checkPassword()">Entrar</button>
+                            </div>
+                            
+                        </ul>
+                    </div>
+                    <div class="conversation-form">
+                        <div class="conversation-form-group">
+                            <textarea class="conversation-form-input" rows="1" placeholder="Digite aqui..."></textarea>
+                        </div>
+                        <button type="button" class="conversation-form-button conversation-form-submit"><i class="ri-send-plane-2-line"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
